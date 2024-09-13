@@ -1,3 +1,2 @@
-A, B = input().split()
-
-print(int(A) + int(B))
+a, b = list(map(int, input().split()))
+print(a+b)
